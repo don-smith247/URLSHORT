@@ -1,0 +1,90 @@
+
+.btn{
+    width: 130px;
+    height: 35px;
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    border-radius: 20px;
+    font-weight: 800;
+    color: white;
+}
+.tetx h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+.gen{
+    gap: 10px;
+    display: flex;
+    background-image: url(./images/bg-shorten-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50vw;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: hsl(255, 11%, 22%);
+}
+.gen input{
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+.gen button{
+    width: 100px;
+    height: 35px;
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    border-radius: 5px;
+}
+.gan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.gan{
+    /* padding-bottom: 50px; */
+    padding: 3% 0;
+}
+.two{
+    display: flex;
+    align-items: center;
+    position: relative;
+    float: right;
+
+    
+}
+
+@media screen and (max-width:950px) {
+    .two{
+        flex-direction: column;
+    }
+    .three{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .ad{
+        overflow-y: hidden;
+        overflow-y: hidden;
+        align-items: center;
+    }
+    .body{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .line{
+        display: none;
+    }
+    .woe img{
+       width: 420px;
+    }
+    .gen{
+        width: 80vw;
+    }
+    .gen-buttton{
+        width: 120px;
+    }
+}

@@ -1,0 +1,139 @@
+.ad{
+    min-height: 90vh;
+    width: 100%;
+    background-color: hsl(0, 0%, 75%);
+    padding-top: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.classic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+.three{
+    display: flex;
+    gap: 30px;
+    z-index: 999;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.bobo{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.bbb{
+    background-color: hsl(255, 11%, 22%);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 80px;
+}
+.bobo img{
+    width: 50px;
+}
+.bobo-0{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.bobo-0 img{
+    width: 50px;
+}
+.bobo-1{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.bobo-1 img{
+    width: 50px;
+}
+.bb{
+    background-color: hsl(255, 11%, 22%);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 80px;
+}
+
+.bbb img{
+    width: 50px;
+}
+.boost{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-image: url(./images/bg-shorten-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 30px;
+    background-color: hsl(255, 11%, 22%);
+    color: white;
+
+}
+.boost button{
+    width: 130px;
+    height: 45px;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+}
+.line{
+    width: 70%;
+    height: 20px;
+    background-color: hsl(0, 87%, 67%);
+    position: absolute;
+    top: 1150px;
+}
+@media screen and (max-width:950px) {
+    .three{
+        flex-direction: column;
+        gap: 90px;
+        margin-bottom: 30px;
+    }
+    .boost{
+        align-items: center;
+        flex-direction: column;
+        margin-left: -30px;
+    }
+    .myown{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .txtx{
+        width: 350px;
+    }
+    .bobo{
+        align-items: center;
+        text-align: center;
+    }
+    .bobo-0{
+        align-items: center;
+        text-align: center;
+    }
+    .bobo-1{
+        align-items: center;
+        text-align: center;
+    }
+}
